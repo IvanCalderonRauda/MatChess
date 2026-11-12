@@ -2,7 +2,14 @@
   "name": "@matchess-app/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+      "start:api": "nx serve api",
+      "build:api": "nx build api",
+      "test:api": "nx test api",
+      "start:web": "nx serve web",
+      "build:web": "nx build web",
+      "test:web": "nx test web"
+  },
   "private": true,
   "devDependencies": {
     "@angular-devkit/core": "~22.2.0",
