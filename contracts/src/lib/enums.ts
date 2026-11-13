@@ -1,0 +1,48 @@
+
+export enum TournamentSystem {
+  SWISS = 'SWISS',
+  ROUND_ROBIN = 'ROUND_ROBIN',
+}
+
+export enum TournamentStatus {
+  DRAFT = 'DRAFT',
+  IN_PROGRESS = 'IN_PROGRESS',
+  FINISHED = 'FINISHED',
+}
+
+export enum RoundStatus {
+  DRAFT = 'DRAFT',
+  PUBLISHED = 'PUBLISHED',
+  FINISHED = 'FINISHED',
+}
+
+export enum RegistrationStatus {
+  ACTIVE = 'ACTIVE',
+  WITHDRAWN = 'WITHDRAWN',
+}
+
+export enum GameResult {
+  PENDING = 'PENDING',
+  WHITE_WIN = 'WHITE_WIN',
+  DRAW = 'DRAW',
+  BLACK_WIN = 'BLACK_WIN',
+  BYE = 'BYE',
+  WHITE_WIN_FORFEIT = 'WHITE_WIN_FORFEIT',
+  BLACK_WIN_FORFEIT = 'BLACK_WIN_FORFEIT',
+}
+
+export enum Color {
+  WHITE = 'WHITE',
+  BLACK = 'BLACK',
+}
+
+export enum TiebreakCode {
+  BUCHHOLZ = 'BUCHHOLZ',
+  BUCHHOLZ_CUT_1 = 'BUCHHOLZ_CUT_1',
+  MEDIAN_BUCHHOLZ = 'MEDIAN_BUCHHOLZ',
+  SONNEBORN_BERGER = 'SONNEBORN_BERGER',
+  PROGRESSIVE = 'PROGRESSIVE',
+  DIRECT_ENCOUNTER = 'DIRECT_ENCOUNTER',
+  WINS = 'WINS',
+  BLACK_GAMES = 'BLACK_GAMES',
+}
